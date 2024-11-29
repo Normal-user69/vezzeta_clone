@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:vezzeta_clone/core/routes/routes_name.dart';
+import 'package:vezzeta_clone/pages/home.dart';
 import 'package:vezzeta_clone/pages/login.dart';
 import 'package:vezzeta_clone/pages/register.dart';
 import 'package:vezzeta_clone/pages/splash.dart';
@@ -21,6 +22,10 @@ class AppRoute {
       case RoutesName.register:
         return MaterialPageRoute(builder: (_) {
           return const Register();
+        });
+      case RoutesName.home:
+        return MaterialPageRoute(builder: (_) {
+          return const Home();
         });
 
       default:
