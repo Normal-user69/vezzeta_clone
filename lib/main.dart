@@ -24,7 +24,7 @@ class MyApp extends StatelessWidget {
       builder: DevicePreview.appBuilder,
       title: 'Doctor App',
       theme: AppTheme.light(context),
-      initialRoute: RoutesName.splash,
+      initialRoute: RoutesName.home,
       onGenerateRoute: AppRoute.generate,
     );
 
